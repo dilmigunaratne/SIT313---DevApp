@@ -1,0 +1,47 @@
+.subscribe-bar {
+    width: 100%;
+    background-color: #0c1794;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* space between text and actions */
+    gap: 15px;
+    box-sizing: border-box;
+  }
+  
+  .subscribe-text {
+    font-weight: bold;
+    color: #ffffffeb;
+    font-size: 28px;
+    text-align: center;
+    white-space: nowrap; /* keep text on one line */
+  }
+  
+  .subscribe-actions {
+    display: flex;
+    gap: 10px;
+    flex-grow: 1;
+    justify-content: flex-end; /* keep input and button on right side */
+  }
+  
+  .subscribe-input {
+    padding: 6px 10px;
+    flex: 0 0 600px; /* fixed input width */
+    font-size: 14px;
+    align-items: flex-start;
+  }
+  
+  .subscribe-btn {
+    padding: 6px 15px;
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .subscribe-btn:hover {
+    background-color: green;
+  }
+  
