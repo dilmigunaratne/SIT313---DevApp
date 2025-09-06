@@ -7,6 +7,8 @@ import Tutorials from './Images/tutorials.jpg';
 import SubscribeBar from "./HomePage/SubscribeBar";
 import Footer from './HomePage/FooterSection.jsx';
 import PostPage from './pages/PostPage.jsx';
+import LoginPage from './pages/LoginPage.jsx';
+import SignupPage from './pages/SignupPage.jsx';
 
 function HomePage({ articles, tutorials }) {
   return (
@@ -41,6 +43,8 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage articles={articles} tutorials={tutorials} />} />
         <Route path="/post" element={<PostPage />} />
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/signup" element={<SignupPage />} />
       </Routes>
     </Router>
   );

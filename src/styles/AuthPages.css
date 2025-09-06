@@ -1,0 +1,89 @@
+/* Container for login/signup */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #9d50bb, #6e48aa);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+  
+  /* Box around form */
+  .auth-box {
+    background: #fff;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .auth-box h2 {
+    margin-bottom: 25px;
+    color: #333;
+  }
+  
+  /* Input fields */
+  .input-field {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 14px;
+    transition: border 0.2s;
+  }
+  
+  .input-field:focus {
+    border-color: #667eea;
+  }
+  
+  /* Buttons */
+  .auth-btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #667eea;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .auth-btn:hover {
+    background: #5563c1;
+  }
+  
+  .auth-btn:disabled {
+    background: #a3a3a3;
+    cursor: not-allowed;
+  }
+  
+  /* Links */
+  .link {
+    color: #667eea;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  .link:hover {
+    color: #5563c1;
+  }
+  
+  /* Success and error messages */
+  .success-msg {
+    color: green;
+    margin-top: 10px;
+    font-weight: 600;
+  }
+  
+  .error-msg {
+    color: red;
+    margin-top: 10px;
+    font-weight: 600;
+  }
+  
