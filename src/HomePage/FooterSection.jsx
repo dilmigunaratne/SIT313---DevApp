@@ -9,28 +9,28 @@ export default function Footer() {
         <div className="footer-column">
           <h4>Explore</h4>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Questions</a></li>
-            <li><a href="#">Articles</a></li>
-            <li><a href="#">Tutorials</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="">Questions</a></li>
+            <li><a href="">Articles</a></li>
+            <li><a href="">Tutorials</a></li>
           </ul>
         </div>
 
         <div className="footer-column">
           <h4>Support</h4>
           <ul>
-            <li><a href="#">FAQs</a></li>
-            <li><a href="#">Help</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="">FAQs</a></li>
+            <li><a href="">Help</a></li>
+            <li><a href="">Contact Us</a></li>
           </ul>
         </div>
 
         <div className="footer-column">
           <h4>Stay Connected</h4>
           <div className="social-icons">
-            <a href="#"><FaInstagram /></a>
-            <a href="#"><FaFacebook /></a>
-            <a href="#"><FaTwitter /></a>
+            <a href=""><FaInstagram /></a>
+            <a href=""><FaFacebook /></a>
+            <a href=""><FaTwitter /></a>
           </div>
         </div>
       </div>
