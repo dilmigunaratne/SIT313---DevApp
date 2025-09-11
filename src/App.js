@@ -45,6 +45,22 @@ function App() {
         <Route path="/post" element={<PostPage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/signup" element={<SignupPage />} />
+        <Route path='/questions' element={<div>Questions Page - Coming Soon!</div>} />
+        <Route path='/articles' element={<div>Articles Page - Coming Soon!</div>} />
+        <Route path='/tutorials' element={<div>Tutorials Page - Coming Soon!</div>} />
+
+        <Route path='/faqs' element={<div>FAQs Page - Coming Soon!</div>} />
+        <Route path='/help' element={<div>Help Page - Coming Soon!</div>} />
+        <Route path='/contact' element={<div>Contact Us Page - Coming Soon!</div>} />
+
+        <Route path='/instagram' element={<div>Instagram Page - Coming Soon!</div>} />
+        <Route path='/facebook' element={<div>Facebook Page - Coming Soon!</div>} />
+        <Route path='/twitter' element={<div>Twitter Page - Coming Soon!</div>} />
+
+        <Route path='/privacy' element={<div>Privacy Policy Page - Coming Soon!</div>} />
+        <Route path='/terms' element={<div>Terms Page - Coming Soon!</div>} />
+        <Route path='/code-of-conduct' element={<div>Code of Conduct Page - Coming Soon!</div>} />
+        
       </Routes>
     </Router>
   );
