@@ -42,6 +42,7 @@ export default function Headerbar() {
       <div className="Header-links">
         <Link to="/" className="Header-link">Home</Link>
         <Link to="/post" className="Header-link">Post</Link>
+        <Link to="/find-question" className="Header-link">Find Question</Link> {/* ✅ New link */}
 
         {/* ✅ Show Login if logged out, Sign Out if logged in */}
         {user ? (

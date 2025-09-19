@@ -9,6 +9,7 @@ import Footer from './HomePage/FooterSection.jsx';
 import PostPage from './pages/PostPage.jsx';
 import LoginPage from './pages/LoginPage.jsx';
 import SignupPage from './pages/SignupPage.jsx';
+import FindQuestionPage from './pages/FindQuestionPage.jsx';
 
 function HomePage({ articles, tutorials }) {
   return (
@@ -45,6 +46,7 @@ function App() {
         <Route path="/post" element={<PostPage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/signup" element={<SignupPage />} />
+        <Route path="/find-question" element={<FindQuestionPage />} />
         <Route path='/questions' element={<div>Questions Page - Coming Soon!</div>} />
         <Route path='/articles' element={<div>Articles Page - Coming Soon!</div>} />
         <Route path='/tutorials' element={<div>Tutorials Page - Coming Soon!</div>} />

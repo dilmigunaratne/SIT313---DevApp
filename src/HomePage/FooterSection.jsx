@@ -19,18 +19,18 @@ export default function Footer() {
         <div className="footer-column">
           <h4>Support</h4>
           <ul>
-            <li><a href="/faqs">FAQs</a></li>
-            <li><a href="/help">Help</a></li>
-            <li><a href="/contact">Contact Us</a></li>
+            <li>FAQs</li>
+            <li>Help</li>
+            <li>Contact Us</li>
           </ul>
         </div>
 
         <div className="footer-column">
           <h4>Stay Connected</h4>
           <div className="social-icons">
-            <a href="/instagram"><FaInstagram /></a>
-            <a href="/facebook"><FaFacebook /></a>
-            <a href="/twitter"><FaTwitter /></a>
+            <span><FaInstagram /></span>
+            <span><FaFacebook /></span>
+            <span><FaTwitter /></span>
           </div>
         </div>
       </div>
@@ -38,9 +38,9 @@ export default function Footer() {
       <div className="footer-bottom">
         <p className="footer-copy">DEV@Deakin 2022</p>
         <ul className="footer-links">
-          <li><a href="/privacy">Privacy Policy</a></li>
-          <li><a href="/terms">Terms</a></li>
-          <li><a href="/code-of-conduct">Code of Conduct</a></li>
+          <li>Privacy Policy</li>
+          <li>Terms</li>
+          <li>Code of Conduct</li>
         </ul>
       </div>
     </footer>
